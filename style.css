@@ -1,0 +1,90 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f1ee;
+  color: #000;
+}
+.hero {
+  background: url('images/hero-image.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+}
+.hero::before {
+  content: '';
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  inset: 0;
+}
+.hero * {
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius:2px ;
+}
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.collections, .about, .newsletter {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+}
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+.card p {
+  margin-top:0.5rem ;
+  font-size: 1.1rem;
+}
+button:hover {
+  background:#2e2b2b ;
+
+  transition: transform b 0.3s ease;
+  text-decoration: underline;
+  transition: transform 0.3s ease;
+}
+.card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  text-decoration: underline;
+  
+  transition: transform 0.3s ease;
+ }
+ inpu
+t{
+  
+ }
+ footer{
+  background-color: #000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+ }
